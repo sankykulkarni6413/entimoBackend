@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Signup from './Components/SignUp';
+import Login from './Components/Login';
+import Main from './Components/Main';
+import Landing from './Components/Landing';
+import Registration from './Components/Registration';
+import Homepage from './Components/Homepage/Homepage';
+import "./App.css";
+import {Route,BrowserRouter as Router} from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Route exact path="/">
+          <Landing/>
+        </Route>
+        <Route path="/SignUp">
+          <Signup/>
+          </Route>
+        <Route path="/Login">
+          <Login />
+        </Route>
+        <Route path="/Homepage">
+          <Homepage />
+        </Route>
+    </Router>
+    
+    
   );
 }
-
+const mapStateToProps = store => ({
+  location: store.router.location
+});
 export default App;

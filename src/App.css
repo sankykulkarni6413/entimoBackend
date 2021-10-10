@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,300,500,600,800");
 .App {
   text-align: center;
 }
@@ -36,3 +37,415 @@
     transform: rotate(360deg);
   }
 }
+.Container{
+
+position: absolute;
+width: 427px;
+height: 390px;
+left: 825px;
+top: 70px;
+
+}
+.Fullname{
+
+/* Full Name */
+
+
+position: absolute;
+left: 2.36%;
+right: 35.62%;
+top: 6.33%;
+bottom: 70.33%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.Fullnamecontainer{
+
+/* Rectangle 3 */
+
+
+position: absolute;
+left: 2.36%;
+right: 35.62%;
+top: 20.56%;
+bottom: 65.33%;
+width:421px;
+height:46px;
+
+background: #F7F6F9;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.Emailtext{
+
+position: absolute;
+left: 2.36%;
+right: 35.62%;
+top: 32.33%;
+bottom: 60.33%;
+height:46px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+}
+
+.EmailAddress{
+
+position: absolute;
+left: 2.36%;
+right: 35.62%;
+top: 46.27%;
+width:421px;
+height:46px;
+
+background: #F7F6F9;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+
+}
+
+.Password{
+
+/* Password */
+
+
+position: absolute;
+left: 2.36%;
+right: 35.62%;
+top: 58.55%;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.PasswordText{
+
+/* ********* */
+
+
+position: absolute;
+left: 2.36%;
+right: 35.62%;
+top: 71.82%;
+width:421px;
+height:46px;
+
+background: #F7F6F9;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+
+}
+.ConfirmPassword{
+
+/* Password */
+
+
+position: absolute;
+left: 2.36%;
+right: 35.62%;
+top: 82.55%;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.ConfirmPasswordText{
+
+/* ********* */
+
+
+position: absolute;
+left: 2.36%;
+right: 35.62%;
+top: 95.82%;
+width:421px;
+height:46px;
+
+background: #F7F6F9;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+
+}
+
+.SignupButton{
+/* Rectangle 4 */
+
+
+position: absolute;
+left: 54.4%;
+
+top: 70.84%;
+width:427px;
+height:42px;
+
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+
+
+/* Button background */
+
+background: #000000;
+}
+
+.Signuptext{
+
+/* Login */
+
+
+position: absolute;
+left: 41.36%;
+
+top: 5.56%;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.Signupwith{
+
+/* Or SignUp with */
+
+
+position: absolute;
+left: 63.78%;
+
+top: 75.44%;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.Googleloginbutton{
+
+/* Google */
+
+
+position: absolute;
+width: 196px;
+height: 50px;
+left: 55.1%;
+top: 84.44%;
+background: rgba(255, 204, 207, 0.54);
+}
+.Group6{
+
+/* Group 6 */
+
+
+position: absolute;
+left: 15.03%;
+right: 14.73%;
+top: 22%;
+bottom: 22.24%;
+}
+.GoogleText{
+/* Google */
+
+
+position: absolute;
+left: 45.45%;
+right: 14.73%;
+top: 0%;
+bottom: 0%;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 0px;
+
+color: #000000;
+
+}
+/*.Googleicon{
+
+/* flat-color-icons:google 
+
+
+position: absolute;
+left: 0%;
+right: 68.51%;
+top: 0%;
+bottom: 0%;
+background: url(${img});
+}*/
+/*const Facebookloginbutton=styled.button
+`
+/* Facebook 
+
+
+position: absolute;
+width: 196px;
+height: 50px;
+left: 1056px;
+top: 84.44%;
+background: rgba(25, 118, 210, 0.4);
+`
+const Group5=styled.div
+`
+/* Group 5 
+
+
+position: absolute;
+left: 13.47%;
+right: 10.36%;
+top: 22%;
+bottom: 22.24%;
+`
+const Facebookicon=styled.div
+`
+position: absolute;
+left: 0%;
+right: 77.51%;
+top: 0%;
+bottom: 0%;
+background: url(${img2});   
+`
+const FacebookText=styled.h2
+`
+/* Facebook 
+
+
+position: absolute;
+left: 37.82%;
+right: 10.36%;
+top: 0%;
+bottom: 0%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 0px;
+
+color: #000000;
+`
+const Alreadyacount=styled.h3
+`
+/* Already have an account yet? Login 
+
+
+position: absolute;
+left: 56.72%;
+
+top: 90.33%;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height 
+
+
+color: #000000;
+`
+const Login=styled(NavLink)
+`
+position: absolute;
+left: 103.72%;
+
+top: 0%;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
